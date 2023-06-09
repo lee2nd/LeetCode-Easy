@@ -10,3 +10,14 @@ for i in range(len(my_list)):
     for j in range(i+1, len(my_list)):
         pair = (my_list[i], my_list[j])
         print(pair)    
+
+# the usage of enumerate()    
+List = ['a', 'b', 'c', 'd', 'e']        
+for index, value in enumerate(List):
+    print(index, value)    
+    
+# (0, 'a')
+# (1, 'b')
+# (2, 'c')
+# (3, 'd')
+# (4, 'e')    
