@@ -1,7 +1,7 @@
 # https://www.geeksforgeeks.org/python-program-to-print-the-fibonacci-sequence/
 
 def climbStairs(n):
-    # 
+    # optimal solution
     if n==0: return 0
     if n==1: return 1
     if n==2: return 2
