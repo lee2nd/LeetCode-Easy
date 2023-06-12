@@ -1,0 +1,3 @@
+"sadbutsad".split("sad")
+
+# ['', 'but', '']
