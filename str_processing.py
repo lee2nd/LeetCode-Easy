@@ -16,3 +16,8 @@ print(result)
 # split
 "sadbutsad".split("sad")
 # ['', 'but', '']
+
+# removing 1st appearance string
+mystring = "Description: Mary had a little lamb Description: "
+print(mystring.replace("Description: ","",1))
+# "Mary had a little lamb Description: "
