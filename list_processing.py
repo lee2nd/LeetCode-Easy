@@ -1,3 +1,4 @@
+# remove all occurrences of a value from a list
 # https://stackoverflow.com/questions/1157106/remove-all-occurrences-of-a-value-from-a-list
 # list.remove(2) 只能一次移掉一個(從最前面開始移)
 
