@@ -1,3 +1,0 @@
-"sadbutsad".split("sad")
-
-# ['', 'but', '']
