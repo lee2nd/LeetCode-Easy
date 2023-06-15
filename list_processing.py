@@ -6,6 +6,12 @@ x = [i for i in x if i != 2]
 print(x)
 # [1, 3, 3, 4]
 
+
 # shortest string in list
 min(['Alice', 'Bob', 'Pete',], key=len)
 # 'Bob'
+
+# slice each string in list
+list_of_words = ['One', 'Two', 'Three', 'Four', 'Five']
+[w[:2] for w in list_of_words]
+# ['On', 'Tw', 'Th', 'Fo', 'Fi']
