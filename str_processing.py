@@ -12,3 +12,7 @@ text = 'Python is fun'
 result = text.index('is')
 print(result)
 # Output: 7
+
+# split
+"sadbutsad".split("sad")
+# ['', 'but', '']
