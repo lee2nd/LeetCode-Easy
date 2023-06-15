@@ -1,3 +1,0 @@
-1. 可以用 print 在 Stdout 看結果
-2. 別宣告太多變數，讓單一變數覆蓋
-3. sliding window
