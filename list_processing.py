@@ -11,6 +11,7 @@ print(x)
 min(['Alice', 'Bob', 'Pete',], key=len)
 # 'Bob'
 
+
 # slice each string in list
 list_of_words = ['One', 'Two', 'Three', 'Four', 'Five']
 [w[:2] for w in list_of_words]
