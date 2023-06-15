@@ -1,8 +1,8 @@
 # https://realpython.com/python-reduce-function/
-# 
-
-# function
-functools.reduce(function, iterable[, initializer])
+# reduce() = apply a function to an iterable and reduce it to a single cumulative value.
+#            performs function on first two elements and repeats process until 1 value remains
+#
+# reduce(function, iterable)
 
 def reduce(function, iterable, initializer=None):
     it = iter(iterable)
