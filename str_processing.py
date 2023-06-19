@@ -17,6 +17,11 @@ print(result)
 "sadbutsad".split("sad")
 # ['', 'but', '']
 
+# string 打散
+s = "xyz"
+print([*s])
+# ['x', 'y', 'z']
+
 # removing 1st appearance string
 mystring = "Description: Mary had a little lamb Description: "
 print(mystring.replace("Description: ","",1))
@@ -28,3 +33,8 @@ a = "example"
 counter = collections.Counter(a)
 print(dict(counter))
 # {'e': 2, 'x': 1, 'a': 1, 'm': 1, 'p': 1, 'l': 1}
+
+# filter all index of letter occurrences in string
+import re
+print([(m.start(0)) for m in re.finditer("a", "banana")])
+# [1, 3, 5]
