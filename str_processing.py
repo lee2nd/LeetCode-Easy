@@ -21,3 +21,10 @@ print(result)
 mystring = "Description: Mary had a little lamb Description: "
 print(mystring.replace("Description: ","",1))
 # "Mary had a little lamb Description: "
+
+# count the occurrences of multiple and different letters within a string
+import collections
+a = "example"
+counter = collections.Counter(a)
+print(dict(counter))
+# {'e': 2, 'x': 1, 'a': 1, 'm': 1, 'p': 1, 'l': 1}
