@@ -18,3 +18,8 @@ list_of_words = ['One', 'Two', 'Three', 'Four', 'Five']
 # The most Pythonic way to convert a list of strings to a list of ints
 strings = ["1","2","3"]
 [int(x) for x in strings] 
+
+# find all occurrences of an element index in a list
+my_list = [1,2,3,4,1,2,1,2,3,4]
+indices = [i for i, x in enumerate(my_list) if x == 1]
+# [0, 4, 6]
