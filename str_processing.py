@@ -42,3 +42,12 @@ print([(m.start(0)) for m in re.finditer("a", "banana")])
 # get unique letter to do the loop stuff
 set("aabc")
 # {'a', 'b', 'c'}
+
+# find first occurence index
+s = "aabc"
+s.find("a")
+# 0
+s.find("d")
+# -1
+s.index("d")
+# ValueError: substring not found
