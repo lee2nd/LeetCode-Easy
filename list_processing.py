@@ -31,3 +31,10 @@ if lst2:
     print("list is not empty")
 else:
     print("list is empty")
+
+# sort comparison
+x = [4, 2, 5, 3, 1]
+# x 不會變
+y = sorted(x)
+# x 會變
+x.sort()
