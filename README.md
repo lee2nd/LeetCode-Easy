@@ -5,3 +5,4 @@
 5. The easiest way to reduce the time complexity is to avoid a for loop whenever possible.</br>
 6. code 太長換行用 \</br>
 7. [multiple OR in if statement?](https://stackoverflow.com/questions/17615020/what-is-the-best-approach-in-python-multiple-or-or-in-in-if-statement) : if cond in {'1','2','3','4'}:
+8. [Putting a simple if-then-else statement on one line](https://stackoverflow.com/questions/2802726/putting-a-simple-if-then-else-statement-on-one-line) : 'Yes' if fruit == 'Apple' else 'No'</br>
