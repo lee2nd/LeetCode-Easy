@@ -15,7 +15,7 @@ list_of_words = ['One', 'Two', 'Three', 'Four', 'Five']
 [w[:2] for w in list_of_words]
 # ['On', 'Tw', 'Th', 'Fo', 'Fi']
 
-# The most Pythonic way to convert a list of strings to a list of ints
+# the most Pythonic way to convert a list of strings to a list of ints
 strings = ["1","2","3"]
 [int(x) for x in strings] 
 
@@ -23,3 +23,11 @@ strings = ["1","2","3"]
 my_list = [1,2,3,4,1,2,1,2,3,4]
 indices = [i for i, x in enumerate(my_list) if x == 1]
 # [0, 4, 6]
+
+# check if a list is empty
+lst1 = ["Hire", "the", "top", "1%", "freelancers"]
+lst2 = []
+if lst2:
+    print("list is not empty")
+else:
+    print("list is empty")
