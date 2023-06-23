@@ -38,3 +38,7 @@ print(dict(counter))
 import re
 print([(m.start(0)) for m in re.finditer("a", "banana")])
 # [1, 3, 5]
+
+# get unique letter to do the loop stuff
+set("aabc")
+# {'a', 'b', 'c'}
