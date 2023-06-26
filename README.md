@@ -9,4 +9,4 @@
 9. [ValueError: Exceeds the limit (4300) for integer string conversion](https://stackoverflow.com/questions/73693104/valueerror-exceeds-the-limit-4300-for-integer-string-conversion) :</br>
    import sys</br>
    sys.set_int_max_str_digits(0)</br>
-10. [caret (^) operator](https://stackoverflow.com/questions/2451386/what-does-the-caret-operator-do)bitwise XOR (exclusive OR)</br>
+10. [caret (^) operator](https://stackoverflow.com/questions/2451386/what-does-the-caret-operator-do) : bitwise XOR (exclusive OR)</br>
