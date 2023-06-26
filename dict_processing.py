@@ -16,3 +16,7 @@ ages = {
 max_value = max(ages, key=ages.get)
 print(max_value)
 # Jack
+
+# keys count
+len(ages)
+# 6
