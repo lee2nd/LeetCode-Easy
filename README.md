@@ -11,4 +11,4 @@
    sys.set_int_max_str_digits(0)</br>
 10. [caret (^) operator](https://stackoverflow.com/questions/2451386/what-does-the-caret-operator-do) : bitwise XOR (exclusive OR)</br>
 11. list 用 l = sorted(l) 會比 l.sort() 還快</br>
-12. 迴圈的終點，可以思考用 int(num**0.5)+1</br>
+12. 兩兩相乘的題目，迴圈的終點，可以思考用 int(num**0.5)+1 ex: #492 #507</br>
