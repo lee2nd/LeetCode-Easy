@@ -16,3 +16,7 @@ for i in range(15):
 # 0b1100
 # 0b1101
 # 0b1110    
+
+# bin to integer number
+int("0111", 2)
+# 7
