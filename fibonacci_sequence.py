@@ -1,4 +1,5 @@
 # https://www.geeksforgeeks.org/python-program-to-print-the-fibonacci-sequence/
+# https://medium.com/@ryanyang1221/dynamic-programming-explanation-with-fibonacci-%E7%94%A8%E8%B2%BB%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B8%E5%88%97%E4%BE%86%E8%A7%A3%E9%87%8B%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-8ce318601d0f
 
 def climbStairs(n):
     # optimal solution
