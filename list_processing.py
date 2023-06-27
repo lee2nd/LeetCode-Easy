@@ -38,3 +38,9 @@ x = [4, 2, 5, 3, 1]
 y = sorted(x)
 # x 會變
 x.sort()
+
+ # Replace Values in a List
+# define list
+l = ['Hardik', 'Rohit', 'Rahul', 'Virat', 'Pant']
+# replace Pant with Ishan
+l = list(map(lambda x: x.replace('Pant', 'Ishan'), l))
