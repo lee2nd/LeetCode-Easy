@@ -39,8 +39,11 @@ y = sorted(x)
 # x 會變
 x.sort()
 
- # Replace Values in a List
-# define list
+# Replace Values in a List
 l = ['Hardik', 'Rohit', 'Rahul', 'Virat', 'Pant']
-# replace Pant with Ishan
 l = list(map(lambda x: x.replace('Pant', 'Ishan'), l))
+
+# Calculate the rank vector of a list
+l = [10,3,8,9,4]
+[sorted(l).index(x) for x in l]
+# [4, 0, 2, 3, 1]
