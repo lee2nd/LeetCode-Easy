@@ -20,3 +20,17 @@ climbStairs(9)
 climbStairs(28)
 # [0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229]
 # 514229
+
+# recursive version
+def recur_fib(n):
+   if n <= 1:
+       return n
+   else:
+       return(recur_fib(n-1) + recur_fib(n-2))
+
+# dynamic programming version
+def dp_fib(n):
+    dp_0, dp_1 = 0,1
+    for i in range(n):
+        dp_0, dp_1 = dp_1, dp_1+dp_0
+    return dp_0
