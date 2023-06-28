@@ -18,3 +18,8 @@ for i, element in enumerate(l1):
 # sleep
 # 2
 # repeat  
+
+# set comprehension 的 word: idx 用法
+list1 = ["Shogun","Tapioca Express","Burger King","KFC"]
+words1 = {word: idx for idx, word in enumerate(list1)}
+# {'Shogun': 0, 'Tapioca Express': 1, 'Burger King': 2, 'KFC': 3}
