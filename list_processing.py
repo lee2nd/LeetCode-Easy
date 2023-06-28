@@ -52,3 +52,8 @@ l = [10,3,8,9,4]
 l = [1, 7, 2, 14, 4, 28]
 l[::2]
 # [1, 2, 4]
+
+# count 2 d array total elements
+two_d_lst = [[1,2],[3,4]]
+sum(len(sub_lst) for sub_lst in two_d_lst)
+# 4
