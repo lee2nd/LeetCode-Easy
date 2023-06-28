@@ -13,3 +13,4 @@
 11. list 用 l = sorted(l) 會比 l.sort() 還快</br>
 12. 兩兩相乘的題目，迴圈的終點，可以思考用 int(num**0.5)+1 ex: #492 #507</br>
 13. #557 用 list 去處理 for loop 的東西，會比用 string 的處理快
+14. 變數後面加底線 : 避免與 python 關鍵字衝突, ex: sum_, class_
