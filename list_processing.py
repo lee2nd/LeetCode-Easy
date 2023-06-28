@@ -47,3 +47,8 @@ l = list(map(lambda x: x.replace('Pant', 'Ishan'), l))
 l = [10,3,8,9,4]
 [sorted(l).index(x) for x in l]
 # [4, 0, 2, 3, 1]
+
+# jump each 2 intervals
+l = [1, 7, 2, 14, 4, 28]
+l[::2]
+# [1, 2, 4]
