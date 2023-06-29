@@ -1,2 +1,5 @@
 # infinite number
-test = float("inf")
+# ∞
+float("inf")
+# -∞
+float(-inf)
