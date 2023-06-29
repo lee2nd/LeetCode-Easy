@@ -58,7 +58,7 @@ two_d_lst = [[1,2],[3,4]]
 sum(len(sub_lst) for sub_lst in two_d_lst)
 # 4
 
-# 2 d
+# 2d
 a = [[0,0,0]]*3 
 a[0][0] += 1
 # [[1, 0, 0], [1, 0, 0], [1, 0, 0]]
@@ -68,3 +68,8 @@ a = [[0, 0, 0] for _ in range(3)]
 a[0][0] += 1
 # [[1, 0, 0], [0, 0, 0], [0, 0, 0]]
 # 這樣就會創建三個獨立的列表，並且您可以單獨修改其中一個列表的元素而不影響其他列表。例如，您可以通過以下方式將第一個列表的第一個元素增加1
+
+# check if all values in list are greater than a certain number
+my_list = [30, 34, 56]
+all(i >= 30 for i in my_list)
+# True
