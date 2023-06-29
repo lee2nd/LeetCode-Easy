@@ -73,3 +73,6 @@ a[0][0] += 1
 my_list = [30, 34, 56]
 all(i >= 30 for i in my_list)
 # True
+
+# finding last index of some value in a list
+len(verts) - 1 - verts[::-1].index(value)
