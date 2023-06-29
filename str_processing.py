@@ -51,3 +51,9 @@ s.find("d")
 # -1
 s.index("d")
 # ValueError: substring not found
+
+# delete character at specific index in string
+myStr = 'apple'
+index = 3
+myStr[:index] + myStr[index+1:]
+ # appe
