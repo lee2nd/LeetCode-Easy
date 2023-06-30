@@ -17,6 +17,6 @@
 15. [How to Break out of multiple loops](https://www.geeksforgeeks.org/how-to-break-out-of-multiple-loops-in-python/?fbclid=IwAR3pOpp323cET1hE3HCNsOWO6sEwOpzrfwQzFpXx4lnzq4L6IN_V9v2OLMQ)
 * 若有多層 loops, break 只會跳出最內層
 * 若要一次跳出整個 loops
-** return
-** else: continue
-** use a flag variable 
+   * return
+   * else: continue
+   * use a flag variable 
