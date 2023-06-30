@@ -1,0 +1,48 @@
+1. 使用time模塊：
+
+可以使用Python內置的time模塊來測試代碼的運行時間。time模塊提供了time()和clock()兩個函數，可以分別用來測量代碼運行的實際時間和CPU時間。
+
+import time
+
+start_time = time.time()
+# 在這裡執行你的代碼
+end_time = time.time()
+
+print("運行時間：{}秒".format(end_time - start_time))
+
+2. 使用timeit模塊：
+
+timeit模塊是Python中測試代碼效率的標準庫。它可以"重複運行"一段代碼並測量運行時間，以得到更準確的結果，其中number參數指定了運行代碼的次數。
+
+import timeit
+
+code_to_test = """
+# 在這裡執行你的代碼
+"""
+elapsed_time = timeit.timeit(code_to_test, number=100)/100
+
+print("平均運行時間：{}秒".format(elapsed_time))
+
+
+3. 使用cProfile模塊：
+
+cProfile模塊是Python中的一個性能分析工具，可以用來分析代碼的運行時間、函數調用次數、函數內部運行時間等信息。
+
+import cProfile
+
+def my_function():
+    # 在這裡執行你的代碼
+
+cProfile.run('my_function()')
+
+4. 使用memory_profiler模塊：
+
+memory_profiler模塊是Python中的一個內存分析工具，用來分析代碼的內存使用情況，使用@profile裝飾器來標記需要分析的函數，然後運行代碼即可得到內存使用情況。
+
+from memory_profiler import profile
+
+@profile
+def my_function():
+    # 在這裡執行你的代碼
+
+my_function()
