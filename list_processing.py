@@ -76,3 +76,7 @@ all(i >= 30 for i in my_list)
 
 # finding last index of some value in a list
 len(verts) - 1 - verts[::-1].index(value)
+
+# delete element in list (don't need to assign to new variable)
+l.remove(value)
+l.pop(idx)
