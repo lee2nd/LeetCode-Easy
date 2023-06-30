@@ -12,5 +12,11 @@
 10. [caret (^) operator](https://stackoverflow.com/questions/2451386/what-does-the-caret-operator-do) : bitwise XOR (exclusive OR)</br>
 11. list 用 l = sorted(l) 會比 l.sort() 還快</br>
 12. 兩兩相乘的題目，迴圈的終點，可以思考用 int(num**0.5)+1 ex: #492 #507</br>
-13. #557 用 list 去處理 for loop 的東西，會比用 string 的處理快
-14. 變數後面加底線 : 避免與 python 關鍵字衝突, ex: sum_, class_
+13. #557 用 list 去處理 for loop 的東西，會比用 string 的處理快</br>
+14. 變數後面加底線 : 避免與 python 關鍵字衝突, ex: sum_, class_</br>
+15. [How to Break out of multiple loops](https://www.geeksforgeeks.org/how-to-break-out-of-multiple-loops-in-python/?fbclid=IwAR3pOpp323cET1hE3HCNsOWO6sEwOpzrfwQzFpXx4lnzq4L6IN_V9v2OLMQ)
+* 若有多層 loops, break 只會跳出最內層
+* 若要一次跳出整個 loops
+** return
+** else: continue
+** use a flag variable 
