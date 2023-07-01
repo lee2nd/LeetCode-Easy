@@ -21,3 +21,4 @@
          * else: continue
          * use a flag variable\
 16.[What is the difference between dict and collections.defaultdict?](https://www.google.com/search?q=difference+between+defaultdict+and+dict&rlz=1C1CHBF_zh-TWTW1031TW1031&oq=&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxjqAhiMBDIMCAAQIxgnGOoCGIwEMgwIARAjGCcY6gIYjAQyDAgCECMYJxjqAhiMBDIMCAMQIxgnGOoCGIwEMgwIBBAjGCcY6gIYjAQyDAgFECMYJxjqAhiMBDIMCAYQIxgnGOoCGIwEMgwIBxAjGCcY6gIYjATSAQgzNjAzajBqOagCCLACAQ&sourceid=chrome&ie=UTF-8): defaultdict will "default" a value if that key has not been set yet</br>
+17. 從一串 list 中要找出某個 index 的題目, 可用 enumerate 發想
