@@ -25,3 +25,5 @@ END;
 SELECT user_id, MAX(price) - MIN(price) as diff
 FROM orders
 GROUP BY user_id;
+
+-- JOIN = INNER JOIN
