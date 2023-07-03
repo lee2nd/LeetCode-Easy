@@ -80,3 +80,14 @@ UNPIVOT
 -- 創建一個欄位，全都同一個數值 (會創一個 status 的欄位，裡面全都是 "NEW")
 SELECT order_id, customer_id, order_date, 'NEW' AS status
 FROM orders;
+
+-- USING
+SELECT *
+FROM orders
+INNER JOIN customers
+ON orders.customer_id = customers.customer_id;
+-- 同樣 key name
+SELECT *
+FROM orders
+JOIN customers
+USING (customer_id);
