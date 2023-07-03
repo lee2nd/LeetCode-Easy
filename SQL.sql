@@ -27,3 +27,56 @@ FROM orders
 GROUP BY user_id;
 
 -- JOIN = INNER JOIN
+
+-- PIVOT
+-- salesperson  sale_date  amount
+-- --------------------------------
+-- Alice        2022-01-01  100
+-- Bob          2022-01-01  200
+-- Charlie      2022-01-01  150
+-- Alice        2022-01-02  120
+-- Bob          2022-01-02  220
+-- Charlie      2022-01-02  180
+
+SELECT *
+FROM sales
+PIVOT (
+  SUM(amount)
+  FOR sale_date IN ('2022-01-01', '2022-01-02')
+) AS p;
+
+-- salesperson  2022-01-01  2022-01-02
+-- -------------------------------------
+-- Alice         100         120
+-- Bob           200         220
+-- Charlie       150         180
+
+-- UNPIVOT
++------------+--------+--------+--------+
+| product_id | store1 | store2 | store3 |
++------------+--------+--------+--------+
+| 0          | 95     | 100    | 105    |
+| 1          | 70     | null   | 80     |
++------------+--------+--------+--------+
+
+SELECT product_id,store,price
+FROM Products
+UNPIVOT
+(
+	price
+	FOR store in (store1,store2,store3)
+) AS T
+
++------------+--------+-------+
+| product_id | store  | price |
++------------+--------+-------+
+| 0          | store1 | 95    |
+| 0          | store2 | 100   |
+| 0          | store3 | 105   |
+| 1          | store1 | 70    |
+| 1          | store3 | 80    |
++------------+--------+-------+
+
+-- 創建一個欄位，全都同一個數值 (會創一個 status 的欄位，裡面全都是 "NEW")
+SELECT order_id, customer_id, order_date, 'NEW' AS status
+FROM orders;
