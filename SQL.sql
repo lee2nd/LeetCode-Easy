@@ -91,3 +91,10 @@ SELECT *
 FROM orders
 JOIN customers
 USING (customer_id);
+
+-- no natively implemented Outer Join in MySQL.
+-- we can implement OUTER JOIN in MySQL by taking a LEFT JOIN and RIGHT JOIN union
+-- https://leetcode.com/problems/employees-with-missing-information/solutions/1946042/implementing-full-join-in-mysql/
+SELECT * FROM Employees LEFT JOIN Salaries USING(employee_id)
+UNION
+SELECT * FROM Employees RIGHT JOIN Salaries USING(employee_id)
