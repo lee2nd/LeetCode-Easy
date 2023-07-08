@@ -10,6 +10,9 @@ print(x)
 min(['Alice', 'Bob', 'Pete',], key=len)
 # 'Bob'
 
+# shortest list by length
+words = sorted(words, key=len)
+
 # slice each string in list
 list_of_words = ['One', 'Two', 'Three', 'Four', 'Five']
 [w[:2] for w in list_of_words]
