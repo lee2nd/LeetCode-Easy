@@ -57,3 +57,11 @@ myStr = 'apple'
 index = 3
 myStr[:index] + myStr[index+1:]
  # appe
+
+# filter a string only contain letters
+# https://stackoverflow.com/questions/12400272/how-do-you-filter-a-string-to-only-contain-letters
+# 法一
+''.join([c for c in input if c.isalpha()])
+# 法二
+import re
+valids = re.sub(r"[^A-Za-z]+", '', my_string)
