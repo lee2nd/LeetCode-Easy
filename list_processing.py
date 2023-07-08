@@ -80,3 +80,7 @@ len(verts) - 1 - verts[::-1].index(value)
 # delete element in list (don't need to assign to new variable)
 l.remove(value)
 l.pop(idx)
+
+# filter lists by indices
+# https://stackoverflow.com/questions/11847491/python-filtering-lists-by-indices
+[aList[i] for i in myIndices]
