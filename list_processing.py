@@ -92,3 +92,11 @@ l.pop(idx)
 lst = [1,1,1,2,2,3,3]
 max(lst, key = lst.count)
 # 1
+
+# list pop assign 值, 原 list 還是會刪 element, assign 的 variable 就會是 pop 掉的那個 element
+queue = ['G']
+s = queue.pop(0)
+queue
+# []
+s
+# 'G'
