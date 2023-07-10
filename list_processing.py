@@ -87,3 +87,8 @@ l.pop(idx)
 # filter lists by indices
 # https://stackoverflow.com/questions/11847491/python-filtering-lists-by-indices
 [aList[i] for i in myIndices]
+
+# 找出 list 中出現次數最多次的元素
+lst = [1,1,1,2,2,3,3]
+max(lst, key = lst.count)
+# 1
