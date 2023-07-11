@@ -65,3 +65,6 @@ myStr[:index] + myStr[index+1:]
 # 法二
 import re
 valids = re.sub(r"[^A-Za-z]+", '', my_string)
+
+# replacing a character from a certain index
+s = s[:index] + newstring + s[index+1:]
