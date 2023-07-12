@@ -20,3 +20,8 @@ print(max_value)
 # keys count
 len(ages)
 # 6
+
+# filter dictionary by values
+d = {'sour': 1, 'is': 2, 'sweet': 1, 'this': 2, 'apple': 2}
+[key for key, value in d.items() if value == 1]
+# ["sour","sweet"]
