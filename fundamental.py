@@ -14,3 +14,8 @@ x
 # -1
 y
 # 11
+
+"A".isalpha()
+True
+"-".isalpha()
+False
