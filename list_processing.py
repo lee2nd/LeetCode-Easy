@@ -100,3 +100,8 @@ queue
 # []
 s
 # 'G'
+
+# filtering a list of strings based on contents
+lst = ['a','ab','abc','bac']
+list(filter(lambda k: 'ab' in k, lst))
+['ab', 'abc']
