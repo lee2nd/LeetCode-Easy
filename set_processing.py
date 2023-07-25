@@ -22,3 +22,12 @@ a.update([3, 4])
 
 # remove values to a set
 myset.remove("1")
+
+# set 相加
+s = {'g', 'e', 'e', 'k', 's'}
+t = ('f', 'o')
+l = ['a', 'e']
+ 
+s.add(t)
+s.update(l)
+# {'a', 'g', 'k', 'e', ('f', 'o'), 's'}
