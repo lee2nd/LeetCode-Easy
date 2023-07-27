@@ -105,3 +105,8 @@ s
 lst = ['a','ab','abc','bac']
 list(filter(lambda k: 'ab' in k, lst))
 ['ab', 'abc']
+
+# insert(index, obj)
+l = [1, 2, 3, 0, 0]
+l.insert(2,4)
+# [1, 2, 4, 3, 0, 0]
