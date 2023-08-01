@@ -25,3 +25,10 @@ len(ages)
 d = {'sour': 1, 'is': 2, 'sweet': 1, 'this': 2, 'apple': 2}
 [key for key, value in d.items() if value == 1]
 # ["sour","sweet"]
+
+# Map list from dictionaries
+# https://stackoverflow.com/questions/36329412/map-list-from-dictionaries
+map_dict = {"a":1, "b":2, "c":6}
+list_to_be_mapped  = ["a","a","b","c","c","a"]
+list(map(map_dict.get, list_to_be_mapped))
+# [1, 1, 2, 6, 6, 1]
