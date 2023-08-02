@@ -32,3 +32,6 @@ map_dict = {"a":1, "b":2, "c":6}
 list_to_be_mapped  = ["a","a","b","c","c","a"]
 list(map(map_dict.get, list_to_be_mapped))
 # [1, 1, 2, 6, 6, 1]
+
+# delete key
+del d[key]
