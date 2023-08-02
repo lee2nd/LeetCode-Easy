@@ -32,3 +32,4 @@
 24. [a tuple can be used as a dictionary key](https://stackoverflow.com/questions/1938614/in-what-case-would-i-use-a-tuple-as-a-dictionary-key)
 25. 取得 n 個東西中共有幾對 pairs: n*(n-1)//2 (不是用 c n 取 k，在 n=2 時會有問題)
 26. [call a function twice or more times consecutively](https://stackoverflow.com/questions/9047985/how-do-i-call-a-function-twice-or-more-times-consecutively)
+27. 判斷奇數或偶數，用 n & 1 == 1 會比用 n % 2 == 1 來得快
