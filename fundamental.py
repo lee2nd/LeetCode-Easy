@@ -19,3 +19,9 @@ y
 True
 "-".isalpha()
 False
+
+s = [1,3,3,2,5]
+# 以下兩個跑出來的結果一樣
+sorted(list(set(s)))
+sorted(set(s))
+# [1,2,3,5]
