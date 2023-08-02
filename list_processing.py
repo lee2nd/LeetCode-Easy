@@ -110,6 +110,8 @@ list(filter(lambda k: 'ab' in k, lst))
 l = [1, 2, 3, 0, 0]
 l.insert(2,4)
 # [1, 2, 4, 3, 0, 0]
+# 另解
+l[2:2] = [4]
 
 # https://stackoverflow.com/questions/17555218/python-how-to-sort-a-list-of-lists-by-the-fourth-element-in-each-list
 # sort a list of lists by the fourth element in each list
