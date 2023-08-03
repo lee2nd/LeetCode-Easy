@@ -117,3 +117,10 @@ l[2:2] = [4]
 # sort a list of lists by the fourth element in each list
 unsorted_list = [['a','b','c','5','d'],['e','f','g','3','h'],['i','j','k','4','m']]
 unsorted_list.sort(key=lambda x: x[3])
+
+# https://stackoverflow.com/questions/16225677/get-the-second-largest-number-in-a-list-in-linear-time
+# 找前幾大的數值 in list
+import heapq
+el = [20,67,3,2.6,7,74,2.8,90.8,52.8,4,3,2,5,7]
+heapq.nlargest(2, el)
+# [90.8, 74]
