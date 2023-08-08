@@ -23,3 +23,11 @@ for i, element in enumerate(l1):
 list1 = ["Shogun","Tapioca Express","Burger King","KFC"]
 words1 = {word: idx for idx, word in enumerate(list1)}
 # {'Shogun': 0, 'Tapioca Express': 1, 'Burger King': 2, 'KFC': 3}
+
+# 裡面也能放 string
+s = "abc"
+for index, value in enumerate(s):
+    print(str(index) + ": " + value)
+# 0: a
+# 1: b
+# 2: c    
