@@ -68,3 +68,8 @@ valids = re.sub(r"[^A-Za-z]+", '', my_string)
 
 # replacing a character from a certain index
 s = s[:index] + newstring + s[index+1:]
+
+# string 不允許直接 assign 值
+s = "123"
+s[0] = "4"
+# 'str' object does not support item assignment
