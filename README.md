@@ -24,7 +24,7 @@
          * return
          * else: continue
          * use a flag variable
-
+20. [difference between find and index](https://stackoverflow.com/questions/22190064/difference-between-find-and-index) : index 會比 find 更快
 20. [What is the difference between dict and collections.defaultdict?](https://www.google.com/search?q=difference+between+defaultdict+and+dict&rlz=1C1CHBF_zh-TWTW1031TW1031&oq=&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxjqAhiMBDIMCAAQIxgnGOoCGIwEMgwIARAjGCcY6gIYjAQyDAgCECMYJxjqAhiMBDIMCAMQIxgnGOoCGIwEMgwIBBAjGCcY6gIYjAQyDAgFECMYJxjqAhiMBDIMCAYQIxgnGOoCGIwEMgwIBxAjGCcY6gIYjATSAQgzNjAzajBqOagCCLACAQ&sourceid=chrome&ie=UTF-8): defaultdict will "default" a value if that key has not been set yet</br>
 21. 從一串 list 中要找出某個 index 的題目, 可用 enumerate 發想</br>
 22. 別用 one liner solution (要考慮到 readability)</br>
