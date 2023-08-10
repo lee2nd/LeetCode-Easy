@@ -73,3 +73,10 @@ s = s[:index] + newstring + s[index+1:]
 s = "123"
 s[0] = "4"
 # 'str' object does not support item assignment
+
+# 從背後找字元的 index
+s = "kibmvpnhlgtdkazshyilq"
+s.find("i")
+# 1
+s.rfind("i")
+# 18
