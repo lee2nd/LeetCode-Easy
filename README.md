@@ -34,3 +34,4 @@
 27. [call a function twice or more times consecutively](https://stackoverflow.com/questions/9047985/how-do-i-call-a-function-twice-or-more-times-consecutively)
 28. 判斷奇數或偶數，用 n & 1 == 1 會比用 n % 2 == 1 來得快
 29. defaultdict 字典裡面不需要 key 值就能直接 assign key & value
+30. [inverse function to XOR](https://stackoverflow.com/questions/14279866/what-is-inverse-function-to-xor) : a XOR b = c, we know the values of a and c. we use the formula to find b -> a XOR c = b
