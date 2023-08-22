@@ -38,8 +38,8 @@
 31. 什麼都不管，單純跑四次一樣的東西 for _ in range(4): print(1)
 32. 用 a*a 會比用 a**2 還快
 33. [check if a float value is a whole number](https://stackoverflow.com/questions/21583758/how-to-check-if-a-float-value-is-a-whole-number) : 
->>> (1.0).is_integer()
-True
->>> (1.555).is_integer()
-False
+   (1.0).is_integer()
+   # True
+   (1.555).is_integer()
+   # False
     
