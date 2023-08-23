@@ -42,4 +42,5 @@
    True
    (1.555).is_integer()
    False
+34. [Python ord()](https://www.programiz.com/python-programming/methods/built-in/ord) : ord('A') # 65  ord('B') # 66
     
