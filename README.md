@@ -43,4 +43,6 @@
    (1.555).is_integer()
    False
 34. [Python ord()](https://www.programiz.com/python-programming/methods/built-in/ord) : ord('A') # 65  ord('B') # 66
+35. split() 可以無視空白的長度
+36. char.isalpha() 確認是不是字母
     
