@@ -25,3 +25,13 @@ s = [1,3,3,2,5]
 sorted(list(set(s)))
 sorted(set(s))
 # [1,2,3,5]
+
+"A".swapcase()
+# a
+"a".swapcase()
+# A
+
+s0 = "abc"
+s1 = "derfg"
+max(s0,s1,key=len)
+# 'derfg'
