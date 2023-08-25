@@ -4,6 +4,10 @@ re.sub(r'[\W_]', '', s)
 # Lowercase a string
 s.lower()
 
+# Capitalize a string
+"akjHYU".capitalize()
+# 'Akjhyu'
+
 # reverse a string
 s[::-1]
 
