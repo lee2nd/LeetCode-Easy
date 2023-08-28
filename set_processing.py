@@ -31,3 +31,10 @@ l = ['a', 'e']
 s.add(t)
 s.update(l)
 # {'a', 'g', 'k', 'e', ('f', 'o'), 's'}
+
+# difference
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+# 兩者結果一樣
+x.difference(y)
+x-y
