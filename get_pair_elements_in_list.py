@@ -44,3 +44,17 @@ for index, value in enumerate(List):
 # (2, 'c')
 # (3, 'd')
 # (4, 'e')    
+
+# itertools 的 pairwise 套件
+# https://stackoverflow.com/questions/3849625/pairwise-traversal-of-a-list-or-tuple
+for x, y in pairwise(my_list):
+    print(x,y)
+# 1 2
+# 2 3
+# 3 4
+# 4 5
+# 5 6
+# 6 7
+# 7 8
+# 8 9
+# 9 10    
