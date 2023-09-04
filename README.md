@@ -45,4 +45,5 @@
 34. [Python ord()](https://www.programiz.com/python-programming/methods/built-in/ord) : ord('A') # 65  ord('B') # 66
 35. split() 可以無視空白的長度
 36. char.isalpha() 確認是不是字母
+37. 遇到 positions in the alphabet i.e. the position of 'a' is 0, 'b' is 1, and 'z' is 25 這種題目，記得用 ord
     
