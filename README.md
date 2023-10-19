@@ -48,3 +48,4 @@
 37. 遇到 positions in the alphabet i.e. the position of 'a' is 0, 'b' is 1, and 'z' is 25 這種題目，記得用 ord
 38. "12345".isdigit() # True, isdigit() 不只可用單一字元
 39. 要計算一個 list 內 1 的數量，用 count 會比 sum 快
+40. 介於某範圍 ex: n = 2, 1 <= n <= 3 (True)
