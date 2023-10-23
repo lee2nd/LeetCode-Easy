@@ -49,3 +49,4 @@
 38. "12345".isdigit() # True, isdigit() 不只可用單一字元
 39. 要計算一個 list 內 1 的數量，用 count 會比 sum 快
 40. 介於某範圍 ex: n = 2, 1 <= n <= 3 (True)
+41. [String replace vowels or not vowels](https://stackoverflow.com/questions/7301292/string-replace-vowels-in-python)
