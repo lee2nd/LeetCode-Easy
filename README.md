@@ -52,3 +52,4 @@
 41. [String replace vowels or not vowels](https://stackoverflow.com/questions/7301292/string-replace-vowels-in-python) : re.sub('[aeiou]', '', 'Banana', flags=re.I)
 42. [Subtracting 2 lists in Python](https://stackoverflow.com/questions/534855/subtracting-2-lists-in-python) : [a_i - b_i for a_i, b_i in zip(a, b)]，也可以用 numpy
 43. [Itertools.accumulate()](https://www.geeksforgeeks.org/python-itertools-accumulate/) : 後面可放 function, ex: 相加, 相乘, max
+44. [Itertools.Product()](https://www.geeksforgeeks.org/python-itertools-product/) : 兩個 lists 所有 elements 的組合
