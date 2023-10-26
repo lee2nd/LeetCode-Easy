@@ -1,5 +1,3 @@
-# https://openhome.cc/zh-tw/python/flow-control/match-case/
-
 # leetcode 2347. Best Poker Hand
 
 # "Flush": Five cards of the same suit.
@@ -19,3 +17,26 @@ match max(Counter(ranks).values()):
         return "Pair"
     case _:
         return "High Card"
+
+# https://openhome.cc/zh-tw/python/flow-control/match-case/
+
+text = 'hi'
+match text:
+    case 'hi':
+        print('嗨')
+    case 'hello':
+        print('哈囉')
+        
+lt = [3, 4]
+match lt:
+    case [1, 2]:
+        print('三')
+    case [3, 4]:
+        print('七')
+        
+dt = {'x': 10, 'y': 20}
+match dt:
+    case {'x': 0, 'y': 0}:
+        print('原點')
+    case {'x': x, 'y': y}:
+        print((x, y))
