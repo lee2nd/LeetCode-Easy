@@ -18,9 +18,11 @@ for i,j in itertools.product(range(3), range(3)):
 product('ABCD', repeat=2)
 # AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
 
+# 排列
 permutations('ABCD', 2)
 # AB AC AD BA BC BD CA CB CD DA DB DC
 
+# 組合
 combinations('ABCD', 2)
 # AB AC AD BC BD CD
 
